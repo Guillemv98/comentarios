@@ -1,6 +1,7 @@
 <?php
 $conection=mysqli_connect('localhost','root','root','COMENTARIOS')or die ("mysql muere");
 $resultado= $conection->query("SELECT texto FROM comentario");
+
 ?>
 <!DOCTYPE html>
 
@@ -20,6 +21,9 @@ $resultado= $conection->query("SELECT texto FROM comentario");
     <button id="enviar">ENVIAR</button>
     <?php
         $arrayResultado=mysqli_fetch_array($resultado);
+        echo "<div class='comentario-enviado'>".$arrayResultado[0];
+        echo "<span class='fecha'>".date("H:i:s")."</date></span>";
+        echo "<img class='¿Desea eliminar el comentario?' src='cancel.png'></div>";
     ?>
     <div id="comentarios-escritos"></div>
     <div></div>
