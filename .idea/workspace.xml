@@ -32,10 +32,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="estilo.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="estilo.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/estilo.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="14" selection-start="237" selection-end="237" vertical-scroll-proportion="0.25723472" vertical-offset="0" max-vertical-offset="933">
+            <state line="16" column="14" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="0" selection-start="196" selection-end="196" vertical-scroll-proportion="0.096463025" vertical-offset="0" max-vertical-offset="933">
               <folding />
             </state>
           </provider>
@@ -60,10 +69,10 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/script.js" />
         <option value="$PROJECT_DIR$/estilo.css" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -188,13 +197,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="2" selection-start="2" selection-end="2" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="933">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jquery.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="101475" max-vertical-offset="146925">
@@ -220,7 +222,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/estilo.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="14" selection-start="237" selection-end="237" vertical-scroll-proportion="0.25723472" vertical-offset="0" max-vertical-offset="933">
+        <state line="16" column="14" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="196" selection-end="196" vertical-scroll-proportion="0.096463025" vertical-offset="0" max-vertical-offset="933">
           <folding />
         </state>
       </provider>
