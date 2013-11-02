@@ -1,4 +1,9 @@
+<?php
+$conection=mysqli_connect('localhost','root','root','COMENTARIOS')or die ("mysql muere");
+$resultado= $conection->query("SELECT texto FROM comentario");
+?>
 <!DOCTYPE html>
+
 <html>
 <head>
     <meta charset="utf-8">
@@ -13,6 +18,9 @@
     <h1><font face="bolsterbold,bold">COMENTARIOS</font></h1>
     <textarea placeholder= "escriba aquí su nombre" id="comentarios"></textarea>
     <button id="enviar">ENVIAR</button>
+    <?php
+        $arrayResultado=mysqli_fetch_array($resultado);
+    ?>
     <div id="comentarios-escritos"></div>
     <div></div>
 

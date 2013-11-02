@@ -15,7 +15,10 @@ $(document).ready(function() {
 
     // Note the amended selector here...
     $("#comentarios-escritos").on('click', '.eliminar', function(){
-        alert("ELIMINAR");
-    });
+        alert("¿Desea eliminar el comentario?");
+        var parentTag=$(this).parent();
+        $(parentTag).remove();
+        console.log($(this).parent());
 
+    });
 });
