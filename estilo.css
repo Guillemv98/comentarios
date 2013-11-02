@@ -14,9 +14,13 @@ button{
 .comentario-enviado{
     background-color: lightblue;
     width: 500px;
-    height: 65px;
+    height: 140px;
     box-shadow: 20px 30px 60px lightblue;
     box-shadow: 3px 3px 1px black;
-
     margin: 1px;
 }
+
+.fecha{
+    color: blue;
+}
+
